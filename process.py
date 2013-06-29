@@ -7,8 +7,8 @@ def shellquote(path):
 
 imagemagick = os.path.abspath("./libs/convert.exe")
 jpegtran = os.path.abspath("./libs/jpegtran.exe")
-srcdir = "./../Content/A_NEW/"
-outdir = "E:/Development/htdocs/lifestylefeatures/public_html/img/assets/"
+srcdir = "./img_input/"
+outdir = "./img_output/"
 quality = 80
 sizes = {
   590: "450x590",
